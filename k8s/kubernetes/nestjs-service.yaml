@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nestjs-service
+  name: nestjs
 spec:
+  type: {{ .Values.nestjs.service.type }}
   ports:
-  - port: 3000
+  - port: {{ .Values.nestjs.service.port }}
     targetPort: 3000
   selector:
-    app: nestjs-app
-  type: LoadBalancer
+    app: nestjs
