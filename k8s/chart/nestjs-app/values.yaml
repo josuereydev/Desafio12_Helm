@@ -7,7 +7,7 @@ mongodb:
   dbName: test
 
 nestjs:
-  image: leanespind92/desafio11
+  image: josuereydev/Desafio12_Helm
   tag: latest
   pullPolicy: IfNotPresent
   port: 3000  # Assuming you are using this port in your deployment
@@ -22,7 +22,7 @@ service:
 
 ingress:
   enabled: false  # Change to `true` to enable ingress
-  annotations: {}
+  annotations: {} 
   hosts:
     - host: "chart-example.local"
       paths: []
