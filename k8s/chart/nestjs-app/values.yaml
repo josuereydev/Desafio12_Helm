@@ -1,4 +1,4 @@
-netjs:
+nestjs:
   replicaCount: 1
   image:
     repository: josuereydev/Desafio12_Helm
