@@ -1,4 +1,3 @@
-...
 netjs:
   replicaCount: 1
   image:
