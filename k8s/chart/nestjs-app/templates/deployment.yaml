@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nestjs
-        image: "leanespind92/desafio11:latest"
+        image: "josuereydev/desafio12_helm:latest"
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3000
